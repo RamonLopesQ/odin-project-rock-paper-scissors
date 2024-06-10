@@ -5,8 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rock Papers Scissors</title>
         <link rel="stylesheet" href="styles.css">
+        <script src="javascript.js" defer></script>
     </head>
     <body>
-        <script src="javascript.js"></script>
+        <div id="header-area">
+            <h1>Pedra, Papel e Tesoura</h1>
+        </div>
+        <div id="main-content">
+            <div id="buttons-area">
+                <button id="Pedra" class= "button">Pedra <img id="Pedra" src="./img/rock.png"></button>
+                <button id="Papel" class= "button">Papel <img id="Papel" src="./img/paper.png"></button>
+                <button id="Tesoura" class= "button">Tesoura <img id="Tesoura" src="./img/scissor.png"></button>
+            </div>
+            <div id="fight-area">
+                <div id="player-select" class="selection">
+                    <div id="the-chosen"></div>
+                </div>
+                <div id="computer-select" class="selection">
+                    <div id="the-cop"></div>
+                </div>
+            </div>
+            <div id="results">
+                <div id="round-result"></div>
+                <div id="total-score"></div>
+                <div id="final-result"></div>
+            </div>
+            <button id="play-again">Play Again?</button>
+        </div>
+        <div id="footer-area">
+            <h3>Ramon Lopes &copy</h3>
+        </div>
     </body>
 </html>

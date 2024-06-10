@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #F5A9BC
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#header-area{
+    background-color: #FF0040;
+    text-align: center;
+    color: white;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+#buttons-area{
+    display: flex;
+    flex-direction: row;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+    background-color:#A9A9F5;
+    border:none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.selection{
+    font-size: 18px;
+}
+
+#round-result{
+    font-weight: 700;
+}
+
+#results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    color: black;
+    font-size: 20px;
+}
+
+#total-score{
+    color: white;
+    font-weight: 700;
+}
+
+#final-result{
+    font-weight: 1000;
+    font-size: 30px;
+}
+
+#play-again{
+    position: fixed;
+    top: 3vh;
+    right: 1vw;
+    padding: 10px;
+    
+    background-color:#A9A9F5;
+    border:none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#footer-area{
+    text-align: center;
+    background-color: #F8E0E6
+}
